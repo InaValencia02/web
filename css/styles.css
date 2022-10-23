@@ -26,7 +26,7 @@ body {
 
 /* INTRO */
 .introContainer {
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .introImg {
@@ -233,6 +233,8 @@ footer {
         display: flex;
         justify-content: center;
         text-align: center;
+        margin-top: 8git0px;
+
     }
 
     .introImgTablet {
