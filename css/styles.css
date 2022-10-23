@@ -294,14 +294,15 @@ footer {
 @media (min-width: 1024px) {
 
     /* INTRO */
+
+    .job h2 {
+        font-size: 29px;
+    }
    
     .introImgTablet {
         display: none;
     }
 
-    h2 {
-        font-size: 39px;
-    }
 
     h4 {
         font-size: 30px;
@@ -327,7 +328,7 @@ footer {
     }
 
     h3 {
-        font-size: 39px;
+        font-size: 29px;
     }
 
     p {
