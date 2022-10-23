@@ -1,0 +1,145 @@
+/* HEADER */
+
+header {
+    background-color: #f0f2f5;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 4vw;
+}
+
+.nav-menu li {
+    margin: 10px;
+}
+
+.nav-menu li a {
+    font-size: 18px;
+}
+
+.nav-link {
+    transition: 0.7s ease ;
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+.logoMobile {
+    display: none;
+}
+
+.logoDesktop {
+    display: block;
+    margin-left: 4vw;
+}
+
+.imgLogoDesktop {
+    max-width: 12vw;
+}
+
+
+@media(max-width: 768px) {
+
+    .logoDesktop {
+        display: none;
+    }
+    /* NAV */
+
+    nav.navbar {
+        align-items: center;
+        height: 6vh;
+
+    }
+
+    .logoMobile {
+        display: flex;
+        margin-left: 2vw;
+        max-width: 5vw;
+    }
+
+    .imgLogoMobile {
+        max-width: 12vw;
+    }
+
+
+.hamburger {
+    display: block;
+    right: 0;
+    margin-right: 2vw;
+}
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-item {
+    margin: 16px 0;
+}
+
+.nav-menu.active {
+    left: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+   
+}
+
+@media(max-width: 1024px) {
+    .imgLogoMobile {
+        max-width: 8vw;
+    }
+}
