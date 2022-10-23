@@ -25,6 +25,9 @@ body {
 }
 
 /* INTRO */
+.introContainer {
+    margin-top: 80px;
+}
 
 .introImg {
     max-width: 100vw;
@@ -228,7 +231,6 @@ footer {
     
     .introContainer {
         display: flex;
-        margin: 12px;
         justify-content: center;
         text-align: center;
     }
