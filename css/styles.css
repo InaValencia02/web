@@ -38,6 +38,8 @@ body {
     text-align: center;
 }
 
+
+
 h4 {
     text-align: center;
 }
@@ -66,6 +68,7 @@ h4 {
 h3 {
     text-align: center;
     color: #005EFF;
+    font-size: 39px;
 }
 
 .eachSkills {
@@ -340,6 +343,10 @@ footer {
         font-size: 24px;
     }
 
+    a {
+        font-size: 25px;
+    }
+
 
     /* PROJECTS */
 
@@ -381,7 +388,7 @@ footer {
     }
 
     .eachWay p {
-        font-size: 15px;
+        font-size: 22px;
     }
     /* FOOTER */
 
