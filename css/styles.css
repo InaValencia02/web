@@ -55,6 +55,9 @@ h4 {
     display: none;
 }
 
+.desktopIntro {
+    display: none;
+}
 
 /* SKILLS */
 .skillsContainer {
@@ -270,6 +273,10 @@ footer {
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .desktopIntro {
+        display: flex;
     }
 
     /* SKILLS */
