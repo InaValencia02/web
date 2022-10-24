@@ -83,6 +83,9 @@ h3 {
     max-width: 20vw;
 }
 
+.eachSkills-p {
+    font-size: 11px;
+}
 
 /* PROJECTS */
 .projectsContainer {
