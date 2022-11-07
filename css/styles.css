@@ -37,6 +37,9 @@ body {
     text-align: center;
 }
 
+.desktopH2 {
+    display: none;
+}
 
 
 h4 {
@@ -284,10 +287,20 @@ footer {
         max-width: 12vw;
     }
 
+    .desktopH2 {
+        display: flex;
+        color: black;
+        font-size: 30px;
+        justify-content: center;
+
+    }
+
 
     /* PROJECTS */
 
-
+    .imgProj {
+        max-width: 20vw;
+    }
 
     /* CONTACT */
 
@@ -366,7 +379,7 @@ footer {
     }
 
     .imgProj {
-        max-width: 60vw;
+        max-width: 38vw;
     }
 
     p.description {
